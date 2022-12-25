@@ -1,6 +1,6 @@
-import { Blog } from "../../types/Blog";
+import { BlogProps } from "../../types/Blog";
 
-const BlogItem = ({ title, tags, date, background }: Blog) => {
+const BlogItem = ({ title, tags, date, background }: BlogProps) => {
   const slug = title.toLowerCase().replace("?", "").replace(/\W/g, "-");
 
   return (
