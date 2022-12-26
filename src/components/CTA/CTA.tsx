@@ -1,6 +1,6 @@
 function CTA() {
   return (
-    <div className="h-screen bg-slate-200 flex items-center justify-center">
+    <div className="font-sans h-screen bg-slate-200 flex items-center justify-center">
       <section className="w-full bg-gradient-to-r from-sky-500 to-indigo-500">
         <div className="max-w-2xl mx-auto text-slate-100 text-center py-12 px-4">
           <h2 className="font-extrabold text-4xl sm:text-5xl">
